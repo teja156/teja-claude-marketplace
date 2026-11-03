@@ -1,0 +1,20 @@
+{
+  "name": "teja-claude-marketplace",
+  "owner": {
+    "name": "Teja Swaroop Pothala"
+  },
+  "metadata": {
+    "description": "Teja's Claude Code plugins: skills, agents, mods, hooks and MCP servers."
+  },
+  "plugins": [
+    {
+      "name": "voiceover-cleanup",
+      "source": {
+        "source": "github",
+        "repo": "teja156/voice-cleanup-claude-plugin"
+      },
+      "description": "Clean a raw voiceover against its script: keep the best take of every sentence, drop retakes, false starts, fillers, and asides. Includes an editor for adding back words the cut missed.",
+      "category": "media"
+    }
+  ]
+}
