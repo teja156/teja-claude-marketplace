@@ -10,8 +10,8 @@
     {
       "name": "voiceover-cleanup",
       "source": {
-        "source": "github",
-        "repo": "teja156/voice-cleanup-claude-plugin"
+        "source": "url",
+        "url": "https://github.com/teja156/voice-cleanup-claude-plugin.git"
       },
       "description": "Clean up your voiceover by cutting out the outtakes: record a script with as many retakes as you need, and get back one take of every sentence (the last complete one by default, checked by Claude), with false starts, fillers and asides removed. Includes an editor for adding back words the cut missed.",
       "category": "media"

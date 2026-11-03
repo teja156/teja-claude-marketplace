@@ -25,7 +25,7 @@ Shell equivalents: `claude plugin marketplace add teja156/teja-claude-marketplac
 ## Adding a plugin
 
 - **A plugin with its own repo:** add an entry whose source is that repo:
-  `"source": { "source": "github", "repo": "teja156/<repo>" }`.
+  `"source": { "source": "url", "url": "https://github.com/teja156/<repo>.git" }` (an HTTPS URL clones without SSH keys; a `"github"` source can clone over SSH and fail for users without GitHub SSH set up).
 - **A small plugin kept here:** put it in `plugins/<name>/` (with its own `.claude-plugin/plugin.json`) and use
   `"source": "./plugins/<name>"`.
 
