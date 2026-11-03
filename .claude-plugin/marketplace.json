@@ -13,7 +13,7 @@
         "source": "github",
         "repo": "teja156/voice-cleanup-claude-plugin"
       },
-      "description": "Clean a raw voiceover against its script: keep the best take of every sentence, drop retakes, false starts, fillers, and asides. Includes an editor for adding back words the cut missed.",
+      "description": "Clean up your voiceover by cutting out the outtakes: record a script with as many retakes as you need, and get back one take of every sentence (the last complete one by default, checked by Claude), with false starts, fillers and asides removed. Includes an editor for adding back words the cut missed.",
       "category": "media"
     }
   ]

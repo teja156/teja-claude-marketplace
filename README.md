@@ -20,7 +20,7 @@ Shell equivalents: `claude plugin marketplace add teja156/teja-claude-marketplac
 
 | Plugin | What it does | Source |
 |---|---|---|
-| `voiceover-cleanup` | Cleans a raw voiceover against its script (keeps the best take of each sentence, drops retakes, fillers and asides), with an editor to add back missed words. | [teja156/voice-cleanup-claude-plugin](https://github.com/teja156/voice-cleanup-claude-plugin) |
+| `voiceover-cleanup` | Cleans up your voiceover by cutting out the outtakes: keeps one take of every sentence (the last complete one by default), drops false starts, fillers and asides, and has an editor to add back missed words. | [teja156/voice-cleanup-claude-plugin](https://github.com/teja156/voice-cleanup-claude-plugin) |
 
 ## Adding a plugin
 
